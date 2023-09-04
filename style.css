@@ -15,6 +15,14 @@
     color: white;
 }
 
+.div__jo {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    align-items: center;
+}
+
 .jo {
     font-weight: 800;
     padding:8px;
