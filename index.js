@@ -16,6 +16,7 @@ function jojo() {
     const is_checked = joRadio1.checked;
     if(is_checked == true){
         alert("정답!!");
+        window.location.href = "jo.html";
     } else {
         alert("왜... 틀렸어..? ㅜㅡㅜ");
     }
