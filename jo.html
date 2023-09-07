@@ -8,19 +8,38 @@
         body {
             background-image : url('images/background.png');
         }
+        
+        .peach:hover {
+            background-color: rgba(250, 150, 197, 0.849);
+        }
+
     </style>
+    <script>
+    const joPeach = document.querySelector(".peach");
+
+    function jop(){
+        alert("zz");
+        if(!confirm("탐스러워 보이시나요?")){
+            alert("감사합니다.");
+        } else {
+            alert("흥!");
+        }
+    }
+    
+    joPeach.addEventListener("click", jop); 
+</script>
 </head>
 <body>
     <section style="display: flex;
         justify-content: center;
         align-items: center;">
         <div>
-            <h1 class="major">Chan's PAGE, <br>
-            어서 와!!!</h1>
-            <p>잔디를 <strong>열심히</strong> 심고있습니다.</p>
-        </div>
-        <div class="peach">
-            <img src="images/peach.png" alt="">
+            <h1 class="major">CHAN'S PAGE, <br>
+            어서 와</h1>
+            <p>잔디를 <strong>열심히</strong> 심고 있습니다.</p>
+            <button type="button" class="peach">
+                <img src="images/peach.png" alt="">
+            </button>
         </div>
     </section>
 </body>
